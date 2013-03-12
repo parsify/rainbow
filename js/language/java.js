@@ -2,7 +2,7 @@
 * Java patterns
 *
 * @author Leo Accend
-* @version 1.0.0
+* @version 1.0.1
 */
 Rainbow.extend( "java", [
   {
@@ -23,7 +23,7 @@ Rainbow.extend( "java", [
   },
   {
     name: "string",
-    pattern: /(".*?")/g
+    pattern: /(")(.*?[^\\\1])?(\1)/g
   },
   {
     name: "char",
