@@ -68,6 +68,7 @@ Currently supported languages are:
 - JSON
 - Lua
 - Markdown
+- Objective-C
 - PHP
 - Python
 - R

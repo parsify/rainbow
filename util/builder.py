@@ -23,14 +23,18 @@ class RainbowBuilder(object):
             'html': '1.0.7',
             'java': '1.0',
             'javascript': '1.0.8',
+            'json': '1.0.3',
             'lua': '1.0',
+            'markdown': '1.0',
+            'objective-c': '1.0',
             'php': '1.0.7',
             'python': '1.0.7',
             'r': '1.0',
             'ruby': '1.0.5',
             'scheme': '1.0',
             'shell': '1.0.3',
-            'smalltalk': '1.0'
+            'smalltalk': '1.0',
+            'xml': '1.0'
         }
 
         self.js_path = js_path
