@@ -2,7 +2,7 @@
  * Generic language patterns
  *
  * @author Craig Campbell
- * @version 1.0.9
+ * @version 1.0.10
  */
 Rainbow.extend([
     {
@@ -19,7 +19,7 @@ Rainbow.extend([
                 }
             }
         },
-        'pattern': /(\(|\s|\[|\=|:)(('|")([^\\\1]|\\.)*?(\3))/gm
+        'pattern': /(\(|\s|\[|\=|\@|:)(('|")([^\\\1]|\\.)*?(\3))/gm
     },
     {
         'name': 'comment',
